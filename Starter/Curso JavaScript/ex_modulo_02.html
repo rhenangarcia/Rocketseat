@@ -22,9 +22,9 @@
       <h3>Passe o mouse sobre os quadrados acima!</h3>
     </section>
 
-    <section>
+    <section id="section-ex03_04">
       <h2>Exercício 03 e 04</h2>
-      <div><ul id="ul-ex03" class="inline-block"></ul></div>
+      <div><ul class="inline-block"></ul></div>
       <div class="flex">
         <input type="text" name="nome" placeholder="Digite um nome ...">
         <button onClick="addToUL(ulElement_ex03, inputElement_ex04)">Adicionar nome</button>
@@ -69,7 +69,7 @@
 
 
       //Exercício 03
-      const ulElement_ex03 = document.querySelector("#ul-ex03");
+      const ulElement_ex03 = document.querySelector("#section-ex03_04 ul");
       
       const nomes = ["Diego", "Gabriel", "Lucas"];
       for (const nome of nomes)
