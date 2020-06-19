@@ -1,0 +1,12 @@
+//Rota: endereço completo da requisição
+//Recurso: qual entidade estamos acessando do sistema
+
+//Métodos HTTP (RESTful API)
+//GET: selecionar informações no backend
+//POST: inserir informações no backend
+//PUT: atualizar informações no backend
+//DELETE: deletar informações no backend
+
+//Request params: parâmetros geralmente obrigatórios da rota p/ identificar um recurso
+//Query params: parâmetros geralmente opcionais da rota (filtros, paginações, etc)
+//Request body: parâmetros p/ criação/atualização de informações
