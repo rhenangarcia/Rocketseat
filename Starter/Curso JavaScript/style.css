@@ -12,10 +12,20 @@ section
   margin: 30px auto;
 }
 
+div
+{
+  margin: 5px;
+}
+
+button
+{
+  height: 30px;
+}
+
 h1,
 h2,
 h3,
-h4
+div
 {
   text-align: center;
 }
@@ -34,34 +44,25 @@ h2
 
 h3
 {
-  margin: 10px 0;
+  margin: 5px 0;
   font-size: 1.4em;
 }
 
-h4
+.flex
 {
-  margin: 0;
-  font-size: 1.2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-a
+.block
 {
-  font-weight: 600;
-  text-decoration: none;
+  display: block;
+  margin: 0 auto;
 }
-a:link
+
+.inline-block
 {
-  color: #000;
-}
-a:visited
-{
-  color: #888;
-}
-a:hover
-{
-  color: #30C;
-}
-a:active
-{
-  color: #600;
+  display: inline-block;
+  margin: 0 auto;
 }
