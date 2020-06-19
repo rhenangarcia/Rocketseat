@@ -17,11 +17,6 @@ div
   margin: 5px;
 }
 
-button
-{
-  height: 30px;
-}
-
 h1,
 h2,
 h3,
@@ -48,6 +43,16 @@ h3
   font-size: 1.4em;
 }
 
+button
+{
+  height: 30px;
+}
+
+li
+{
+  text-align: left;
+}
+
 .flex
 {
   display: flex;
@@ -65,4 +70,5 @@ h3
 {
   display: inline-block;
   margin: 0 auto;
+  padding-inline-start: 0;
 }
