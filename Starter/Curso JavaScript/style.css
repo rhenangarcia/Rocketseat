@@ -43,14 +43,22 @@ h3
   font-size: 1.4em;
 }
 
-button
-{
-  height: 30px;
-}
-
 li
 {
   text-align: left;
+}
+
+input
+{
+  max-width: 300px;
+  width: 100%;
+  min-height: 23px;
+}
+
+button
+{
+  min-height: 30px;
+  height: 100%;
 }
 
 .flex
