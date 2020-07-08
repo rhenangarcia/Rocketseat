@@ -1,20 +1,23 @@
 {
-  "name": "curso-js-es6",
+  "name": "jses6_ex_modulo_02",
   "version": "1.0.0",
-  "main": "",
-  "license": "MIT",
-  "devDependencies": {
-    "@babel/cli": "^7.10.3",
-    "@babel/core": "^7.10.3",
+  "description": "Rocketseat - Starter - Curso JavaScript ES6 - Exercícios módulo 02",
+  "main": "ex_modulo_02-main.js",
+  "author": "z10nn",
+  "license": "GPL-3.0",
+  "devDependencies":
+  {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
-    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-env": "^7.10.4",
     "babel-loader": "^8.1.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
-  "scripts": {
-    "ex_modulo_01": "babel ./ex_modulo_01-main.js -o ./ex_modulo_01-bundle.js -w",
+  "scripts":
+  {
     "ex_modulo_02-wpDev": "webpack --mode=development -w",
     "ex_modulo_02-wpDevServer": "webpack-dev-server --mode=development",
     "ex_modulo_02-wpProd": "webpack --mode=production"
