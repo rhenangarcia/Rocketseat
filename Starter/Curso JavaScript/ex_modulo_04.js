@@ -126,7 +126,7 @@ function buscaRepositorio(ulElement_ex, usuario)
           const ulElement = document.createElement("ul");
           ulElement_ex.appendChild(ulElement);
 
-          for (repo of repos)
+          for (const repo of repos)
           {
             liINTOul(ulElement, repo.name);
           }
@@ -187,7 +187,7 @@ function buscaRepositorioComAxios(ulElement_ex, usuario)
           const ulElement = document.createElement("ul");
           ulElement_ex.appendChild(ulElement);
 
-          for (repo of repos)
+          for (const repo of repos)
           {
             liINTOul(ulElement, repo.name);
           }
