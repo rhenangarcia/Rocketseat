@@ -1,0 +1,22 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "Rocketseat - Starter - NodeJS - node-api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nmDevServer": "nodemon server.js"
+  },
+  "author": "z10nn",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.23",
+    "mongoose-paginate": "^5.0.3",
+    "requiredir": "^1.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
