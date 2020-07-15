@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Rocketseat/Starter/ReactJS/huntweb/build/static/css/main.f635c813.chunk.css",
+    "main.js": "/Rocketseat/Starter/ReactJS/huntweb/build/static/js/main.8a9d5d72.chunk.js",
+    "main.js.map": "/Rocketseat/Starter/ReactJS/huntweb/build/static/js/main.8a9d5d72.chunk.js.map",
+    "runtime-main.js": "/Rocketseat/Starter/ReactJS/huntweb/build/static/js/runtime-main.1f5218af.js",
+    "runtime-main.js.map": "/Rocketseat/Starter/ReactJS/huntweb/build/static/js/runtime-main.1f5218af.js.map",
+    "static/js/2.6db76f4c.chunk.js": "/Rocketseat/Starter/ReactJS/huntweb/build/static/js/2.6db76f4c.chunk.js",
+    "static/js/2.6db76f4c.chunk.js.map": "/Rocketseat/Starter/ReactJS/huntweb/build/static/js/2.6db76f4c.chunk.js.map",
+    "index.html": "/Rocketseat/Starter/ReactJS/huntweb/build/index.html",
+    "precache-manifest.0a06fbede8f10d81d1ab20f94617ae89.js": "/Rocketseat/Starter/ReactJS/huntweb/build/precache-manifest.0a06fbede8f10d81d1ab20f94617ae89.js",
+    "service-worker.js": "/Rocketseat/Starter/ReactJS/huntweb/build/service-worker.js",
+    "static/css/main.f635c813.chunk.css.map": "/Rocketseat/Starter/ReactJS/huntweb/build/static/css/main.f635c813.chunk.css.map",
+    "static/js/2.6db76f4c.chunk.js.LICENSE.txt": "/Rocketseat/Starter/ReactJS/huntweb/build/static/js/2.6db76f4c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f5218af.js",
+    "static/js/2.6db76f4c.chunk.js",
+    "static/css/main.f635c813.chunk.css",
+    "static/js/main.8a9d5d72.chunk.js"
+  ]
+}
