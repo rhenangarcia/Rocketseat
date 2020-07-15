@@ -5,10 +5,10 @@
 > It consists of an API connected to a Mongo database performing basic CRUD operations to handle storage of web products.
 
 ## Prerequisites
-Make sure you have installed all of the following prerequisites on your machine:
-* [Git](https://git-scm.com/downloads);
-* [Node.js](https://nodejs.org/en/download/) with npm package manager;
-* [Docker](https://docs.docker.com/engine/install/) **or** [MongoDB](http://www.mongodb.org/downloads) running on the default port (27017).
+* Make sure you have installed all of the following prerequisites on your machine:
+  * [Git](https://git-scm.com/downloads);
+  * [Node.js](https://nodejs.org/en/download/) with npm package manager;
+  * [Docker](https://docs.docker.com/engine/install/) **or** [MongoDB](http://www.mongodb.org/downloads) running on the default port (27017).
 
 ## Installation
 ### With Docker
@@ -52,13 +52,13 @@ $ node server.js
 ```
 
 ### HTTP methods
-* `GET` **/products&page=*PAGE_NUMBER***
+* **`GET` /api/products&page=*PAGE_NUMBER***
   * Show detailed products list using pagination query.
-* `GET` **/products/id**
+* **`GET` /api/products/id**
   * Show product details by ID.
-* `POST` **/products**
+* **`POST` /api/products**
   * Create product sending a JSON body.
-* `PUT` **/products/id**
+* **`PUT` /api/products/id**
   * Update product by ID sending a JSON body.
-* `DELETE` **/products/id**
+* **`DELETE` /api/products/id**
   * Delete product by ID.
