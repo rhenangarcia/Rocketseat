@@ -1,7 +1,7 @@
 # Welcome to huntweb 👋
 [![License: GPL--3.0](https://img.shields.io/badge/License-GPL--3.0-yellow.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-> Application developed in the **Starter / ReactJS** course by **Rocketseat**.
+> Application developed in the **[Starter / ReactJS](https://rocketseat.com.br/starter)** course by **[Rocketseat](https://rocketseat.com.br/)**.
 > It consists of a frontend interface to expose the API built in the [node-api project](https://z10nn.github.io/Rocketseat/Starter/NodeJS/node-api/), displaying the web products registered in the Mongo database.
 
 ## Online preview
@@ -13,14 +13,13 @@
   * [Node.js](https://nodejs.org/en/download/) with npm package manager.
 
 ## Installation
-### Development Server
 1. Clone the repository
 ```sh
 $ git clone git@github.com:z10nn/Rocketseat.git
 ```
 2. Do *[BrowserRouter](https://github.com/rafgraph/spa-github-pages#usage-instructions)* replacement
 ```sh
-$ cd Rocketseat/Starter/ReacJS/huntweb/
+$ cd Rocketseat/Starter/ReactJS/huntweb/
 $ vim routes.js
 ```
 ```javascript
@@ -29,20 +28,16 @@ $ vim routes.js
 ```
 3. Install node modules
 ```sh
-$ npm install
+$ npm install -g yarn
+$ yarn install
 ```
-
-### Production Server
-* [React deployment documentation](https://create-react-app.dev/docs/deployment/#github-pages)
-* [GitHub Pages](https://github.com/rafgraph/spa-github-pages#usage-instructions)
 
 ## Usage
-### Development Server
+### Development Environment
 ```sh
-$ npm run start
+$ yarn start
 ```
 
-### Production Server
-```sh
-$ npm run build
-```
+### Production Environment
+* [React deployment documentation](https://create-react-app.dev/docs/deployment/#github-pages)
+* [GitHub Pages](https://github.com/rafgraph/spa-github-pages#usage-instructions)

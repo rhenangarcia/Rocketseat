@@ -1,7 +1,7 @@
 # Welcome to node-api 👋
 [![License: GPL--3.0](https://img.shields.io/badge/License-GPL--3.0-yellow.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-> Application developed in the **Starter / NodeJS** course by **Rocketseat**.
+> Application developed in the **[Starter / NodeJS](https://rocketseat.com.br/starter)** course by **[Rocketseat](https://rocketseat.com.br/)**.
 > It consists of an API connected to a Mongo database performing basic CRUD operations to handle storage of web products.
 
 ## Prerequisites
