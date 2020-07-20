@@ -8,7 +8,7 @@ import "./styles.css"
 export default class Main extends Component
 {
   //Objeto que armazena estado do componente, os itens representam 
-  //"propriedades" do componente
+  //"propriedades do estado" do componente do arquivo
   state = 
   {
     products: [],
@@ -73,8 +73,8 @@ export default class Main extends Component
   }
 
   /*
-   * Renderiza o componente usando JSX, em que p/ utilizar os itens
-   * armazenados no estado do componente, usa-se {this.state}
+   * Renderiza o componente usando JSX, utilizando os itens armazenados
+   * no estado do componente através do this.state
    * 
    * Este método monitora as alterações do estado, atualizando a DOM
    * ao identificar qualquer modificação

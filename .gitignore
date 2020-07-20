@@ -1,9 +1,16 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+##################################################
+##################### React ######################
+##################################################
+
+# js
+**/node_modules/
+**/npm-debug.log
+**/yarn-debug.log*
+**/yarn-error.log
 
 # dependencies
-**/node_modules
-**/.pnp
-**/.pnp.js
+**/*.pnp
+**/*.pnp.js
 
 # testing
 **/coverage
@@ -17,9 +24,92 @@
 **/.env.test.local
 **/.env.production.local
 
-**/npm-debug.log*
-**/yarn-debug.log*
-**/yarn-error.log*
+##################################################
 
-# others
+
+##################################################
+################## React Native ##################
+##################################################
+
+# OSX
+**/.DS_Store
+
+# Xcode
+**/ios/build/
+**/*.pbxuser
+**/!default.pbxuser
+**/*.mode1v3
+**/!default.mode1v3
+**/*.mode2v3
+**/!default.mode2v3
+**/*.perspectivev3
+**/!default.perspectivev3
+**/xcuserdata
+**/*.xccheckout
+**/*.moved-aside
+**/DerivedData
+**/*.hmap
+**/*.ipa
+**/*.xcuserstate
+
+# Android/IntelliJ
+**/android/app/build/
+**/.idea
+**/.gradle
+**/local.properties
+**/*.iml
+
+# BUCK
+**/buck-out/
+**/\.buckd/
+**/*.keystore
+**/!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+
+# Bundle artifact
+**/*.jsbundle
+
+# CocoaPods
+**/ios/Pods/
+
+##################################################
+
+
+##################################################
+############### React Native/Expo ################
+##################################################
+
+# OSX
+**/.DS_Store
+
+# JS
+**/node_modules
+**/.expo
+**/npm-debug.*
+**/*.jks
+**/*.p8
+**/*.p12
+**/*.key
+**/*.mobileprovision
+**/*.orig.*
+**/web-build/
+
+##################################################
+
+
+##################################################
+##################### Others #####################
+##################################################
+
 **/videos
+
+##################################################
