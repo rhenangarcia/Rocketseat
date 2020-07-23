@@ -14,14 +14,14 @@
 ### With Docker
 ```sh
 $ docker pull mongo
-$ git clone git@github.com:z10nn/Rocketseat.git
+$ git clone git@github.com:rhenangarcia/Rocketseat.git
 $ cd Rocketseat/Starter/NodeJS/node-api/
 $ npm install
 ```
 
 ### With MongoDB
 ```sh
-$ git clone git@github.com:z10nn/Rocketseat.git
+$ git clone git@github.com:rhenangarcia/Rocketseat.git
 $ cd Rocketseat/Starter/NodeJS/node-api/
 $ npm install
 ```

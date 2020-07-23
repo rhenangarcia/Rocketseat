@@ -2,7 +2,7 @@
 [![License: GPL--3.0](https://img.shields.io/badge/License-GPL--3.0-yellow.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > [Expo version](https://expo.io/) of the application developed in the **[Starter / React Native](https://rocketseat.com.br/starter)** course by **[Rocketseat](https://rocketseat.com.br/)**.
-> It consists of a mobile application to expose the API built in the [node-api project](https://z10nn.github.io/Rocketseat/Starter/NodeJS/node-api/), displaying the web products registered in the Mongo database.
+> It consists of a mobile application to expose the API built in the [node-api project](https://rhenangarcia.github.io/Rocketseat/Starter/NodeJS/node-api/), displaying the web products registered in the Mongo database.
 > [Why use Expo?](https://docs.expo.io/workflow/already-used-react-native/)
 
 ## Online preview
@@ -20,7 +20,7 @@
 ## Installation
 1. Clone the repository
 ```sh
-$ git clone git@github.com:z10nn/Rocketseat.git
+$ git clone git@github.com:rhenangarcia/Rocketseat.git
 ```
 2. Install node modules
 ```sh
