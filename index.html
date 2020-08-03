@@ -1,61 +1,116 @@
 <!DOCTYPE html>
 
-<html lang="pt">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos da Rocketseat</title>
-    <link rel="icon" type="image/png" href="favicon.png"/>
+    <title>Rocketseat Projects</title>
+    <link rel="icon" type="image/png" href="./favicon.png"/>
     <link rel="stylesheet" href="./styles.css">
   </head>
 
   <body>
-    <main>
-      <h1>Projetos da Rocketseat</h1>
-      <section>
-        <h2>Starter</h2>
-        <h3>Curso JavaScript</h3>
-        <h4>
-          <a href="./Starter/Curso JavaScript/ex_modulo_01.html" target="_blank">Módulo 01</a>
-          <a href="./Starter/Curso JavaScript/ex_modulo_01.pdf" target="_blank">(.pdf)</a>
-        </h4>
-        <h4>
-          <a href="./Starter/Curso JavaScript/ex_modulo_02.html" target="_blank">Módulo 02</a>
-          <a href="./Starter/Curso JavaScript/ex_modulo_02.pdf" target="_blank">(.pdf)</a>    
-        </h4>
-        <h4><a href="./Starter/Curso JavaScript/ex_modulo_03.html" target="_blank">Módulo 03</a></h4>
-        <h4>
-          <a href="./Starter/Curso JavaScript/ex_modulo_04.html" target="_blank">Módulo 04</a>
-          <a href="./Starter/Curso JavaScript/ex_modulo_04.pdf" target="_blank">(.pdf)</a>
-        </h4>
-        <h3>Curso JavaScript ES6</h3>
-        <h4>
-          <a href="./Starter/Curso JavaScript ES6/ex_modulo_01/ex_modulo_01.html" target="_blank">Módulo 01</a>
-          <a href="./Starter/Curso JavaScript ES6/ex_modulo_01/ex_modulo_01.pdf" target="_blank">(.pdf)</a>    
-        </h4>
-        <h4>
-          <a href="./Starter/Curso JavaScript ES6/ex_modulo_02/public/ex_modulo_02.html" target="_blank">Módulo 02</a>
-          <a href="./Starter/Curso JavaScript ES6/ex_modulo_02/ex_modulo_02.pdf" target="_blank">(.pdf)</a>
-        </h4>
-        <h4>
-          <a href="./Starter/Curso JavaScript ES6/ex_modulo_03/public/ex_modulo_03.html" target="_blank">Módulo 03</a>
-          <a href="./Starter/Curso JavaScript ES6/ex_modulo_03/ex_modulo_03.pdf" target="_blank">(.pdf)</a>    
-        </h4>
-        <h4><a href="./Starter/Curso JavaScript ES6/ex_modulo_04/public/index.html" target="_blank">Módulo 04</a></h4>
-        <h3>NodeJS</h3>
-        <h4><a href="./Starter/NodeJS/node-api/" target="_blank">node-api</a></h4>
-        <h3>ReactJS</h3>
-        <h4><a href="./Starter/ReactJS/huntweb/" target="_blank">huntweb</a></h4>
-        <h3>React Native</h3>
-        <h4><a href="./Starter/React Native/huntapp/" target="_blank">huntapp</a></h4>
-        <h4><a href="./Starter/React Native/huntexpo/" target="_blank">huntexpo</a></h4>
-      </section>
-      
-      <section>
-        <h2>Next Level Week</h2>
-        <h3><a href="./NLW/01/" target="_blank">#01</a></h3>
-        <h3><a href="./NLW/02/" target="_blank">#02</a></h3>
-      </section>
+    <main class="container">
+      <header class="flex container-title">
+        <img src="./images/rs-logo.svg" alt="Rocketseat Logo">
+        <h1>Rocketseat Projects</h1>
+        <img src="./images/rs-logo.svg" alt="Rocketseat Logo">
+      </header>
+      <div class="tl-container">
+        <img src="./images/rocket.svg" alt="Rocket" class="img-rocket">
+        <section class="tl-group">
+          <span class="tl-year">2020</span>
+          <article class="tl-box">
+            <div class="tl-date tl-dt-3r">
+              <span class="tl-day">20</span>
+              <span class="tl-month">JUN</span>
+            </div>
+            <div class="tl-content">
+              <h2>Starter / JavaScript Course</h2>
+              <div class="flex content-img">
+                <img src="./images/starter-logo.svg" alt="Starter Logo" class="img-starter">
+                <img src="./images/js-logo.png" alt="JavaScript Logo" class="img-tech">
+              </div>
+              <div class="flex content-link">
+                <img src="./images/gh-logo.png" alt="GitHub Logo">
+                <a href="https://rhenangarcia.github.io/js-course" class="flex">js-course</a>
+              </div>              
+            </div>
+          </article>
+          <article class="tl-box">
+            <div class="tl-date tl-dt-3r">
+              <span class="tl-day">09</span>
+              <span class="tl-month">JUL</span>
+            </div>
+            <div class="tl-content">
+              <h2>Starter / JavaScript ES6 Course</h2>
+              <div class="flex content-img">
+                <img src="./images/starter-logo.svg" alt="Starter Logo" class="img-starter">
+                <img src="./images/js_es6-logo.png" alt="JavaScript ES6 Logo" class="img-tech">
+              </div>
+              <div class="flex content-link">
+                <img src="./images/gh-logo.png" alt="GitHub Logo">
+                <a href="https://rhenangarcia.github.io/js_es6-course" class="flex">js_es6-course</a>
+              </div>              
+            </div>
+          </article>
+          <article class="tl-box">
+            <div class="tl-date tl-dt-3r">
+              <span class="tl-day">12</span>
+              <span class="tl-month">JUL</span>
+            </div>
+            <div class="tl-content">
+              <h2>Starter / NodeJS Course</h2>
+              <div class="flex content-img">
+                <img src="./images/starter-logo.svg" alt="Starter Logo" class="img-starter">
+                <img src="./images/nodejs-logo.svg" alt="NodeJS Logo" class="img-tech">
+              </div>
+              <div class="flex content-link">
+                <img src="./images/gh-logo.png" alt="GitHub Logo">
+                <a href="https://rhenangarcia.github.io/huntapi" class="flex">huntapi</a>
+              </div>              
+            </div>
+          </article>
+          <article class="tl-box">
+            <div class="tl-date tl-dt-3r">
+              <span class="tl-day">15</span>
+              <span class="tl-month">JUL</span>
+            </div>
+            <div class="tl-content">
+              <h2>Starter / ReactJS Course</h2>
+              <div class="flex content-img">
+                <img src="./images/starter-logo.svg" alt="Starter Logo" class="img-starter">
+                <img src="./images/reactjs-logo.svg" alt="ReactJS Logo" class="img-tech">
+              </div>
+              <div class="flex content-link">
+                <img src="./images/gh-logo.png" alt="GitHub Logo">
+                <a href="https://rhenangarcia.github.io/huntweb" class="flex">huntweb</a>
+              </div>              
+            </div>
+          </article>
+          <article class="tl-box">
+            <div class="tl-date tl-dt-4r">
+              <span class="tl-day">19</span>
+              <span class="tl-month">JUL</span>
+            </div>
+            <div class="tl-content">
+              <h2>Starter / React Native Course</h2>
+              <div class="flex content-img">
+                <img src="./images/starter-logo.svg" alt="Starter Logo" class="img-starter">
+                <img src="./images/rn-logo.svg" alt="React Native Logo" class="img-tech">
+              </div>
+              <div class="flex content-link">
+                <img src="./images/gh-logo.png" alt="GitHub Logo">
+                <a href="https://rhenangarcia.github.io/huntapp" class="flex">huntapp</a>
+              </div>
+              <div class="flex content-link">
+                <img src="./images/gh-logo.png" alt="GitHub Logo">
+                <a href="https://rhenangarcia.github.io/huntexpo" class="flex">huntexpo</a>
+              </div>              
+            </div>
+          </article>
+        </section>
+      </div>
     </main>
   </body>
 </html>

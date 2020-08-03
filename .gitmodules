@@ -1,0 +1,18 @@
+[submodule "Starter/JavaScript Course/js-course"]
+	path = Starter/JavaScript Course/js-course
+	url = https://github.com/rhenangarcia/js-course
+[submodule "Starter/JavaScript ES6 Course/js_es6-course"]
+	path = Starter/JavaScript ES6 Course/js_es6-course
+	url = https://github.com/rhenangarcia/js_es6-course
+[submodule "Starter/NodeJS/huntapi"]
+	path = Starter/NodeJS/huntapi
+	url = https://github.com/rhenangarcia/huntapi
+[submodule "Starter/ReactJS/huntweb"]
+	path = Starter/ReactJS/huntweb
+	url = https://github.com/rhenangarcia/huntweb
+[submodule "Starter/React Native/huntapp"]
+	path = Starter/React Native/huntapp
+	url = https://github.com/rhenangarcia/huntapp
+[submodule "Starter/React Native/huntexpo"]
+	path = Starter/React Native/huntexpo
+	url = https://github.com/rhenangarcia/huntexpo
